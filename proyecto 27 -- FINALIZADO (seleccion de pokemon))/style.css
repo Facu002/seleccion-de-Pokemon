@@ -1,0 +1,35 @@
+body {
+  background-color: #80aac8;
+}
+
+.ocultar {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.imagenChico, .imagenChica {
+  height: 150px;
+  width: 100px;
+  float: inline-end;
+  z-index: 2;
+}
+
+.pokemon {
+  height: 100px;
+  width: 100px;
+}
+
+.pokemon:hover {
+  height: 150px;
+  width: 150px;
+}
+
+.miPokemon {
+  height: 100px;
+  width: 100px;
+  float: inline-end;
+  z-index: 2;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */

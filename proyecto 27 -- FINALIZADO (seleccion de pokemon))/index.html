@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- MENSAJE DE INCIO -->
+    <div class="mensajeDeInicio">
+        <h1 class="bienvenido">Bienvenido al mundo Pokemon</h1>
+        <button class="inicio ">Iniciar</button>
+    </div>
+
+    <!-- SELECCION DE GENERO -->
+    <div class="generos ocultar">
+        <h2 class="preguntaGenero ">Dime que eres</h2>
+        <h3 class="chico ">Chico</h3>
+        <h3 class="chica ">Chica</h3>
+    </div>
+
+    <!-- PERSONSAJE -->
+    <div class="personaje">
+        <img class="imagenChico ocultar" src="personajes/personajeChico.png" alt="chico">
+        <img class="imagenChica ocultar" src="personajes/personajeChica.png" alt="chica">
+    </div>
+
+    <!-- SELECCION DE POKEMON -->
+    <div class="pokemonInicial ocultar">
+        <h2 class="preguntaPokemon">Elige un pokemon inicial</h2> 
+        
+        <img id="001" class="pokemon" src="pokemones/001.png" alt="001">
+        <img id="004" class="pokemon" src="pokemones/004.png" alt="004">
+        <img id="007" class="pokemon" src="pokemones/007.png" alt="007">
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="pokemons.js"></script>
+</body>
+</html>
